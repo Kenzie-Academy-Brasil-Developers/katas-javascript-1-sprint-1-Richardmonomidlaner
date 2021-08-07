@@ -1,173 +1,86 @@
 function oneThroughTwenty() {
-<<<<<<< HEAD
-  let x=[];
- for (let i = 1; i <= 20; i++){}
- console.log (x);   
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/   
-}
 
-.
+  let x=[];
+   for (let i = 1; i <= 20; i++){}
+return x;
+}
+console.log (oneThroughTwenty());
 
 function evensToTwenty() {
     let even= [];
-   for (let i=0; i<=20; i++){}
-   if (i%2===0);
-   console.log(even);
-   / Your code goes below
-=======
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+   for (let i=0; i<=20; i++){
+   if (i%2===0); } 
+   return even;
 }
+console.log(evensToTwenty());
 
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-    
-   /* Your code goes below
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
-   Write a for or a while loop
-   return the result */
-  
-}
-
-//call function evensToTwenty
 
 function oddsToTwenty() {
-<<<<<<< HEAD
     let odd=[];
-        for (let i=0; i < 20; i++) {}
+        for (let i=0; i < 20; i++) {
     if(i%2===1);
-        console.log(odd);
-      }
-=======
-    
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+    odd += i; } 
+    return odd;    
 }
+console.log(oddsToTwenty());
 
-//call function oddsToTwenty
-
-function multiplesOfFive() {
-<<<<<<< HEAD
-  const num1 = 5;
-  const multiples = (num1); 
-     for(let i = num1; i <= num1 * 5; i += num1){}
-  console.log(num1);
-
-
-=======
-    
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+function multiplesOfFivetoOnehundred() {
+  let num1 = [0]; 
+     for (let i = num1; i <= 20; i += num1 * 5){
+     num1 += i;}
+     return num1;
 }
+console.log(multiplesOfFivetoOnehundred());
 
-//call function multiplesOfFive
 
-function squareNumbers() {
-<<<<<<< HEAD
-  let num =[];
-  for(let i = num1; i <= num * num; i += num){
-     console.log(i);
-  }
- 
-=======
-    
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+function squareNumberstoOnehundred() {
+  let num1 =[];
+  for (let i = 0; i <= 10; i ++){
+    if (i * i <= 100);
+    num1 += i;
+} return num1
 }
+console.log(squareNumberstoOnehundred());
 
-//call function squareNumbers
 
 function countingBackwards() {
-<<<<<<< HEAD
   let x=[];
   for (let i = 20; i <= 20; i--){}
-  console.log (x);  
-=======
-    
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+   return x; 
 }
+console.log(countingBackwards());
 
-//call function countingBackwards
 
-function evenNumbersBackwards() {
-<<<<<<< HEAD
+function evenNumbersBackwardstoTwenty() {
   let even= [];
-  for (let i=0; i<=20; i--){}
+  for (let i = 20; i <= 20; i--){
   if (i%2===0);
-  console.log(even);
-=======
-    
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  } return even;   
 }
+console.log(evenNumbersBackwardstoTwenty());
 
-//call function evenNumbersBackwards
 
-function oddNumbersBackwards() {
-<<<<<<< HEAD
+
+function oddNumbersBackwardstoTwenty() {
   let odd=[];
-  for (let i=0; i < 20; i--) {}
+  for (let i=20; i <= 20; i--) {
 if(i%2===1);
-  console.log(odd);
+  } return odd;    
 }
-=======
-    
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+console.log(oddNumbersBackwardstoTwenty());
+
+
+function multiplesOfFiveBackwardstoOnehundred() {
+  let num1 = [] 
+     for (let i = 100; i <= 100; i -= num1 - 5){
+     } return multiples;
 }
-
-//call function oddNumbersBackwards
-
-function multiplesOfFiveBackwards() {
-<<<<<<< HEAD
-  const num1 = 5;
-  const multiples = (num1); 
-     for(let i = num1; i <= num1 * 5; i -= num1){}
-  console.log(num1);
-=======
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function multiplesOfFiveBackwards
+console.log(multiplesOfFiveBackwardstoOnehundred());
 
 function squareNumbersBackwards() {
-<<<<<<< HEAD
   let num =[];
-  for(let i = num1; i <= num * num; i -= num){
-     console.log(i);
+  for (let i = 100; i <= 100; i --) {
+    if (Math.sqrt(i) <=100);
+    return num;}
   }
-=======
->>>>>>> 483d7a4e858e7d2d49ef6b013395edaf72557107
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
-
-//call function squareNumbersBackwards
+  console.log(squareNumbersBackwards());
