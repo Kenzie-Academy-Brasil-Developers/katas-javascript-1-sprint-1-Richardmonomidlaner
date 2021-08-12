@@ -1,5 +1,4 @@
 function oneThroughTwenty() {
-<<<<<<< HEAD
   let x = [];
   for (let i = 1; i <= 20; i++) {
     x += i + ", ";
@@ -90,6 +89,4 @@ function Backwardssquareto100() {
   return square;
 }
 console.log(Backwardssquareto100());
-=======
-    
->>>>>>> 10a9bb78ea4fed339e74f3060853d0281c2e1b75
+
